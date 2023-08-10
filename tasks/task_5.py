@@ -1,7 +1,7 @@
-num_1 = ...  # здесь Ваш код
-num_2 = ...  # здесь Ваш код
+num_1: int = int(input('Введите перрвое число:')) 
+num_2: int = int(input('Введите второе число:'))  
 
-print(...)  # допишите код
-print(...)  # допишите код
-print(...)  # допишите код
-print(...)  # допишите код
+print(num_1 + num_2)  
+print(num_1 - num_2) 
+print(num_1 * num_2)  
+print(num_1 / num_2) 

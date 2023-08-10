@@ -1,6 +1,6 @@
-line_1 = ...  # здесь Ваш код
-line_2 = ...  # здесь Ваш код
+line_1: str = 'python-'   
+line_2: str  = 'java'   
 
-result = ...  # здесь Ваш код
+result = line_1 + line_2 
 
-print(...)  # допишите код
+print(result) 
