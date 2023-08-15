@@ -1,8 +1,8 @@
-working_hours: str = int(input('Введите количество отработанных часов в месяц:'))  
+hourly_rate: float = float(input())
 
-hourly_rate: str = input('')  
+working_hours: int = 176  # 22 * 8
 
-salary: int = hourly_rate * working_hours
+salary: float = hourly_rate * working_hours
 
-print('Ваша почасовая ставка:', working_hours, 'рублей')  
-print('Заработная плата в месяц:', salary, 'рублей')
+print('Вы проработали', working_hours, 'часов')
+print('Ваша зарплата', salary, 'рублей')
