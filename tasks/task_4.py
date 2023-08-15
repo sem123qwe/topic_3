@@ -1,6 +1,6 @@
 name = input('Введите ваше имя:')  
-age = input('Введите ваш возраст:')  
+age = int(input('Введите ваш возраст:'))  
 
-greeting = ... 
+greeting = 'Привет,' + name + '!', 'Тебе уже', age, 'лет!' 
 
-print('Привет,'+name+'!', 'Тебе уже',age,'лет!') 
+print(greeting) 

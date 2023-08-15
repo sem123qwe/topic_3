@@ -1,6 +1,6 @@
 line: str =input('Введите строку:') 
-num: str =input('Введите число:') 
+num: str = int(input('Введите число:')) 
 
-result = (line + '\n') * int(str(num))
+result = (line + '\n') * num
 
 print(result) 

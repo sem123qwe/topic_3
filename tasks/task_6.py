@@ -1,5 +1,5 @@
-num_1: int = input('Введите первое число:')
-num_2: int = input('Введите второе число:')
+num_1: str = int(input('Введите первое число:'))
+num_2: str = int(input('Введите второе число:'))
 
-result: float = int(str(num_1)) % int(str(num_2)) 
-print(result)
+result: int = num_1 % num_2 
+print('Остаток от деления', num_1, 'на', num_2,'равен',result)

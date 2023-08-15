@@ -1,7 +1,7 @@
 num_1: int = int(input('Введите перрвое число:')) 
 num_2: int = int(input('Введите второе число:'))  
 
-print(num_1 + num_2)  
-print(num_1 - num_2) 
-print(num_1 * num_2)  
-print(num_1 / num_2) 
+print('Результат сложения:' + num_1 + num_2)  
+print('Результат вычитания:' + num_1 - num_2) 
+print('Результат умножения:' + num_1 * num_2)  
+print('Результат деления:' + num_1 / num_2) 
